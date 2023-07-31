@@ -5,7 +5,7 @@ const DirectorSchema = new mongoose.Schema(
       type: String,
       required: true,
       trim: true,
-    },
+    },                 
     image: {
       type: Object,
       default: {
